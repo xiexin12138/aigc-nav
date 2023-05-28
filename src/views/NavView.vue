@@ -22,9 +22,9 @@
             <t-col
               v-for="i in sub.children"
               :key="i.title"
-              :xs="{ span: 8 }"
-              :sm="{ span: 4 }"
-              :md="{ span: 4 }"
+              :xs="{ span: 12 }"
+              :sm="{ span: 8 }"
+              :md="{ span: 6 }"
               :lg="{ span: 4 }"
               :xl="{ span: 3 }"
               :xxl="{ span: 2 }"
