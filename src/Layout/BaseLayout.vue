@@ -15,7 +15,7 @@
       >
         <div style="font-size: 32px; line-height: 32px; height: 32px">
           <!-- {{ currentDomain }} -->
-          aigc123.site
+          AIGC
         </div>
         <div
           style="
@@ -34,7 +34,9 @@
       <t-aside class="hide-in-mobile">
         <SidebarView />
       </t-aside>
-      <t-content style="height: calc(100vh - 50px); overflow: scroll">
+      <t-content
+        style="height: calc(100vh - 50px); overflow-y: scroll; width: 100vw"
+      >
         <router-view />
       </t-content>
       <!-- <t-footer>Footer</t-footer> -->

@@ -1,5 +1,8 @@
 <template>
-  <t-space style="box-sizing: border-box; padding: 10px" direction="vertical">
+  <t-space
+    style="box-sizing: border-box; padding: 10px; max-width: 100vw"
+    direction="vertical"
+  >
     <t-card v-for="(group, index) in navJson" :key="index" header-bordered>
       <t-tabs
         :id="defaultSelectItem[index]"
