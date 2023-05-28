@@ -14,7 +14,8 @@
         "
       >
         <div style="font-size: 32px; line-height: 32px; height: 32px">
-          {{ currentDomain }}
+          <!-- {{ currentDomain }} -->
+          aigc123.site
         </div>
         <div
           style="
