@@ -34,6 +34,7 @@
                   <template #avatar>
                     <div class="t-comment__avatar">
                       <t-image
+                        :lazy="true"
                         :src="require('@/assets/img/' + i.name + '.png')"
                         class="t-comment__avatar-image"
                       />
